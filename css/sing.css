@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.sin h2{
+    text-align: center;
+  
+}
+.sin .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.sin .container form{
+    /* text-align: center; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+  
+}
+.sin .container form .num{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: -15px;
+
+
+}
+.sin .container form .main{
+    /* width: 50px; */
+    background-color: #d6ddf5fc;
+    padding: 15px;
+    border-radius: 7px;
+    margin-bottom: 7px;
+    border: none;
+   
+
+}
+.sin .container form  input[type='submit']{
+    font-size: 18px;
+    color: #777;
+}
+
+    
+
+.sin .container form p , label{
+    font-size: 17px;
+    color: #777;
+    margin-right: 10px;
+
+}
+.sin .container .info{
+    text-align: center;
+}
+.sin .container .info a{
+    text-decoration: none;
+    margin: 5px;
+}
