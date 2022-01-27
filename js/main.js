@@ -87,7 +87,13 @@ dome.forEach((element, index) => {
 
 })
 
+function countCard(){
+  var item = document.getElementById('conter');
+  item.style.visibility = "visible";
+  var c = parseInt(item.innerHTML) +1;
+  item.innerHTML=c;
 
+}
 /*************************Rating */
 // const filter = document.querySelector(".filter-container select");
 // const boxes = document.querySelectorAll(".box");

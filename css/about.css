@@ -206,11 +206,30 @@ header nav .head i {
   position: absolute;
   top: 35px;
 }
-
-
+.image-trash {
+  position: relative;
+}
+#conter {
+width: 20px;
+height: 20px;
+border-radius: 50%;
+background-color: red;
+color: #fff;
+position: absolute;
+top : -15px;
+right: 1px;
+display: flex;
+align-items: center;
+justify-content: center;
+visibility: hidden;
+}
 .serch .icon .image-trash img {
   margin-top: -10px;
   width: 60px;
+}
+
+@media(max-width:393px){
+  
 }
 
 /*****************************Ratinh*********************/
