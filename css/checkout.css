@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.checkBox {
+  /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 40px; */
+  margin-right: 30px;
+
+}
+
+.checkBox .hed {
+  font-size: 21px;
+  display: flex;
+}
+
+.checkBox .container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  /* grid-template-columns: repeat(auto-fill, minmax(50%, 1fr)); */
+  /* gap: 60px; */
+  /* display: flex;
+    flex-wrap: wrap; */
+
+}
+
+@media (min-width: 1000px) {
+  .checkBox .container {
+    grid-template-columns: 60% 30%;
+  }
+}
+
+@media (max-width: 700px) {
+  .checkBox .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .box2 {
+    height: fit-content !important;
+    padding-top: 0 !important;
+
+  }
+}
+
+.checkBox .box {
+  box-shadow: 0 2px 15px rgb(0 0 0 / 39%);
+  background-color: white;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 90%;
+  padding: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+
+@media (max-width: 676px) {
+
+  .checkBox .box {
+    display: flex;
+    flex-direction: column;
+    /* width: 200px; */
+
+  }
+
+
+}
+
+@media (max-width: 676px) {
+  .checkBox .container {
+    box-shadow: 0 2px 15px rgb(0 0 0 / 39%);
+    background-color: white;
+    border-radius: 6px;
+    /* overflow: hidden; */
+    /* width: 79%; */
+    padding-block: 22px;
+    margin-bottom: 20px;
+  }
+}
+
+.checkBox .box .discound p {
+  margin-right: 73px;
+  margin-top: -16px;
+  font-size: 18px;
+  color: #777;
+}
+
+.checkBox .box .content {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.checkBox .box .content p {
+  font-size: 17px;
+  border-right: 9px solid #dcd859e8;
+  margin-right: 46px;
+  position: relative;
+  top: -20px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #ffb9b9;
+}
+
+
+
+.checkBox .box .content input[type="number"] {
+  height: 21px;
+  width: 51px;
+  position: relative;
+  top: 5px;
+  margin-right: 10px;
+}
+
+.checkBox .box .delet p {
+  font-size: 20px;
+  margin-top: -24px;
+  border-top: 2px solid #b8b8b8;
+  margin-bottom: 5px;
+}
+
+.checkBox .container .image-hed {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 676px) {
+  .checkBox .container .image-hed {
+    display: flex;
+    /* flex-direction: column; */
+    width: 50px;
+    font-size: 10px;
+  }
+}
+
+
+.checkBox .container .image-hed p {
+  color: red;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.checkBox .contemt {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  background-color: #fab0ff8c;
+  border-right: 5px solid #ffe00d;
+  margin-right: 45px;
+  /* border-bottom: 2px solid #625e5e; */
+  margin-bottom: 15px;
+}
+
+.box2 {
+  box-shadow: 0 2px 15px rgb(0 0 0 / 39%);
+  background-color: white;
+  border-radius: 6px;
+  overflow: hidden;
+  /* width: 50%; */
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 269px;
+}
+
+@media(max-width:676px) {
+  .box2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 9px;
+    width: 132px;
+    height: 318px;
+  }
+}
+
+.box2 .text1, .text2, .text3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin-bottom: -30px;
+}
+
+.box2 .text1 h2 {
+  font-size: 20px;
+
+
+}
+
+.box2 .text2 h2 {
+  font-size: 17px;
+  padding: 5px;
+
+}
+
+.box2 .text3 h2 {
+  font-size: 17px;
+
+}
+
+.box2 p {
+  font-size: 18px;
+  color: #777;
+  padding-top: 50px;
+}
+
+.box2 button {
+  background-color: red;
+  color: white;
+  width: 100%;
+  font-size: 25px;
+}
